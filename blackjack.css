@@ -1,6 +1,5 @@
-.container-1, .container-2, .container-3, .container-4, .container-5{
+.container-1, .container-2, .container-3, .container-4{
     margin: 0 auto;
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -8,7 +7,6 @@
  .flex-box-bj-row-3{
     display: flex;
     padding: 10px;
-    border: 1px solid black;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -37,6 +35,11 @@
 }
 
 /*Challenge 5*/
+.container-5{
+    margin: 0 auto;
+    text-align: center;
+}
+
 .flex-box-bj-row-1{
     background-color: rgb(6, 77, 6);
     display: flex;
@@ -45,7 +48,6 @@
 }
 
 .flex-box-bj-row-1 div{
-    border: 1px solid black;
     flex: 1;
     height: 350px;
 }
@@ -60,7 +62,7 @@
 }
 
 .flex-box-bj-row-2 div{
-    border: 1px solid black;
+    padding: 10px;
 }
 
 .flex-box-bj-row-2 button{

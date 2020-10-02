@@ -28,6 +28,8 @@
 /*Challenge 3*/
 .flex-box-rps img{
     margin: 10px;
+    height: 256px;
+    width: 256px;
 }
 
 .flex-box-rps img:hover{
